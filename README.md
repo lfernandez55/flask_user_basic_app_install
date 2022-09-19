@@ -29,7 +29,7 @@ The codebase contains virtual environments for 3.8 and 3.10 that already have th
 ## Installation for 3.10.1, (works with 3.10.6 too):
 
 - >python -m venv venvTen
-- >venv\scripts\activate.bat
+- >venvTen\scripts\activate.bat
 - >pip install -r requirementsTen.txt
 - >set flask_app=basic_app.py
 - >flask run --port 4000
